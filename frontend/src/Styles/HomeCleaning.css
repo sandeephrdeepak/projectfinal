@@ -1,0 +1,111 @@
+.home-cleaning-container{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-cleaning-banner{
+    width: 100%;
+    position: relative;
+}
+.home-cleaning-banner img{
+    width: 100%;
+}
+.home-cleaning-banner h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.home-cleaning-services-wrapper,.home-cleaning-how-wrapper{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.home-cleaning-services-wrapper h3,.home-cleaning-how-wrapper h3{
+   font-weight: 900;
+}
+.home-cleaning-services-wrapper p, .home-cleaning-how-wrapper p{
+    color: rgb(75, 73, 73);
+    font-weight: 500;
+}
+.home-cleaning-how{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-cleaning-services{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+}
+.home-cleaning-services-item{
+    box-shadow: 0px 4px 8px 0px gray;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+.home-cleaning-services-item img{
+    height: 200px;
+    width: 300px;
+}
+.home-cleaning-services-item h4{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.home-cleaning-services-item button{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    outline-style: none;
+    background-color: rgb(235, 57, 95);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+}
+.home-cleaning-how-item{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-cleaning-how-item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.home-cleaning-how-item h4{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.add-new-service{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.add-new-service button{
+    width: 200px;
+    outline-style: none;
+    background-color: rgb(235, 57, 95);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+}
